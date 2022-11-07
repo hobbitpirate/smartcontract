@@ -30,10 +30,10 @@
     "deploy:token:mainnet": "npx hardhat run scripts/01_Token_deploy.js --network bsc",
     "deploy:nft:testnet": "npx hardhat run scripts/02_Nft_deploy.js --network bsc_testnet",
     "deploy:nft:mainnet": "npx hardhat run scripts/02_Nft_deploy.js --network bsc",
-    "deploy:nftstake:testnet": "npx hardhat run scripts/04_Nftstake_deploy.js --network bsc_testnet",
-    "deploy:nftstake:mainnet": "npx hardhat run scripts/04_Nftstake_deploy.js --network bsc",
-    "deploy:farm:testnet": "npx hardhat run scripts/05_Farm_deploy.js --network bsc_testnet",
-    "deploy:farm:mainnet": "npx hardhat run scripts/05_Farm_deploy.js --network bsc"
+    "deploy:nftstake:testnet": "npx hardhat run scripts/03_Nftstake_deploy.js --network bsc_testnet",
+    "deploy:nftstake:mainnet": "npx hardhat run scripts/03_Nftstake_deploy.js --network bsc",
+    "deploy:farm:testnet": "npx hardhat run scripts/04_Farm_deploy.js --network bsc_testnet",
+    "deploy:farm:mainnet": "npx hardhat run scripts/04_Farm_deploy.js --network bsc"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
